@@ -1,7 +1,7 @@
 // Ramps
-stool_ramp_spawner = Rámpa Berakó
-stool_ramp_create = Rámpát készít
-stool_ramp_desc = Bal kattintás a rámpa berakásáért
+stool_ramp_spawner = Rámpa Beillesztés
+stool_ramp_create = Rámpát illeszt be
+stool_ramp_desc = Bal kattintás a rámpa beillesztéséhez
 stool_ramp_remove = Rámpa törölve
 stool_ramp_cleanup = Rámpák
 stool_ramp_cleaned = Összes Rámpa Törlése
@@ -9,23 +9,23 @@ stool_ramp_limit = Rámpa korlát elérve
 stool_ramp_anim_limit = Animált rámpa korlát elérve!
 
 // Ashen defence
-stool_ashen_defence_spawner = Ashen Védelmi Rendszer Berakó
-stool_ashen_defence_create = Ashen Védelmi Rendszert Készít
-stool_ashen_defence_desc = Bal kattintás a rendszer készítéséért
+stool_ashen_defence_spawner = Ashen Védelmi Rendszer Beillesztés
+stool_ashen_defence_create = Ashen Védelmi Rendszert illeszt be
+stool_ashen_defence_desc = Bal kattintás a rendszer beillesztéséhez
 stool_ashen_defence_undone = Ashen Védelmi Rendszer törlése
 stool_ashen_defence_cleanup = Ashen Védelmi Rendszerek
 stool_ashen_defence_cleaned = Ashen Védelmi Rendszerek Törölve
-stool_ashen_defence_limit = Maximum Ashen Védelmi Rendszerek Száma
+stool_ashen_defence_limit = Ashen Védelmi Rendszerkorlát elérve
 
 // Asuran ZPM Hub
-stool_asuran_zpm_hub_spawner = Asurai ZPM Központ Berakó
-stool_asuran_zpm_hub_create = Asurai ZPM Központot Készít
-stool_asuran_zpm_hub_desc = Bal kattintás-Asurai ZPM Központ Készítése
+stool_asuran_zpm_hub_spawner = Asurai ZPM Központ Beillesztés
+stool_asuran_zpm_hub_create = Asurai ZPM Központot illeszt be
+stool_asuran_zpm_hub_desc = Bal kattintás Asurai ZPM Központ beillesztéséhez
 stool_asuran_zpm_hub_undone = Asurai ZPM Központ törölve
 stool_asuran_zpm_hub_cleanup = Asurai ZPM Központ
 stool_asuran_zpm_hub_cleaned = Asurai ZPM Központok törölve
 stool_asuran_zpm_hub_limit = Asurai ZPM Központ korlát elérve
-stool_asuran_zpm_hub_fulldesc = Ez az Asurai ZPM Központ.Ez az eszköz igényli a SpaceBuild-et vagy az Environments addont.Ha nincs meg önnek,akkor a ZPM központ haszontalan önnek.
+stool_asuran_zpm_hub_fulldesc = Ez az Asurai ZPM Központ. Ez az eszköz igényli a SpaceBuild-et vagy az Environments addont. Ezek hiányában a ZPM központ dekoráció.
 
 // Atlantis ZPM Hub
 stool_atlantis_zpm_hub_spawner = Atlantisz ZPM Központ Berakó
@@ -35,7 +35,7 @@ stool_atlantis_zpm_hub_undone = Atlantisz ZPM Központ törölve
 stool_atlantis_zpm_hub_cleanup = Atlantisz ZPM Központ
 stool_atlantis_zpm_hub_cleaned = Atlantisz ZPM Központok törölve
 stool_atlantis_zpm_hub_limit = Atlantisz ZPM Központ korlát elérve
-stool_atlantis_zpm_hub_fulldesc = Ez az Atlantisz ZPM Központ.Ez az eszköz igényli a SpaceBuild-et vagy az Environments addont.Ha nincs meg önnek,akkor a ZPM központ haszontalan önnek.
+stool_atlantis_zpm_hub_fulldesc = Ez az Atlantisz ZPM Központ. Ez az eszköz igényli a SpaceBuild-et vagy az Environments addont. Ezek hiányában a ZPM központ dekoráció.
 
 // Gate Bearing
 stool_bearing_spawner = Csapágy Berakó
@@ -167,12 +167,12 @@ stool_gravitycontroller_sga = Csillagkapu Atlantisz Stabilizátor
 // Jamming Device
 stool_jamming_spawner = Zavaradó Berakó
 stool_jamming_create = Zavaradót készít
-stool_jamming_desc = Bal kattintás,Zavaradó berakása vagy frissítése
+stool_jamming_desc = Bal kattintás: Zavaradó beillesztése vagy frissítése
 stool_jamming_undone = Zavaradó törölve
 stool_jamming_cleanup = Zavaradó
 stool_jamming_cleaned = Zavaradók törölve
 stool_jamming_limit = Zavaradó korlát elérve
-stool_jamming_imm_desc = Az immunitás engedélyzi önnek a teleportálást amikor a zavaradó aktív
+stool_jamming_imm_desc = Immunitás mellett te az eszköz bekapcsolt állapotban is tudsz teleportálni. 
 
 // Naquadah Bottle
 stool_naq_bottle_spawner = Naquadah Palack Berakó
@@ -192,7 +192,7 @@ stool_naq_gen_mks_undone = Naquada Generátor törölve
 stool_naq_gen_mks_cleanup = Naquada Generátor
 stool_naq_gen_mks_cleaned = Naquada Generátorok törölve
 stool_naq_gen_mks_limit = Naquada Generátor korlát elérve!
-stool_naq_gen_mks_fulldesc = Ez itt a Naquada Generátor eszköz.Az eszköz ellátja önt a Mark 1 és Mark 2 Naquada Generátorral, mert az MK1 kevesebb energiát ad a MK2-nél.Ez az eszköz igényli a SpaceBuild-et vagy az Environments addont.Ha nincs meg önnek,akkor a Naquadah Generátorok haszontalanok önnek.
+stool_naq_gen_mks_fulldesc = Ez itt a Naquada Generátor eszköz. Az eszköz ellátja önt a Mark 1 és Mark 2 Naquada Generátorral, mert az MK1 kevesebb energiát ad a MK2-nél.Ez az eszköz igényli a SpaceBuild-et vagy az Environments addont.Ha nincs meg önnek,akkor a Naquadah Generátorok haszontalanok önnek.
 
 // Naquadah Bomb
 stool_naqbomb_spawner = Naquadah Bomba Berakó
@@ -374,5 +374,5 @@ stool_zpm_mk3_undone = Zero Pont Modul törölve
 stool_zpm_mk3_cleanup = Zero Pont Modulok
 stool_zpm_mk3_cleaned = Zero Pont Modulok törölve
 stool_zpm_mk3_limit = Zero Pont Modul korlát elérve
-stool_zpm_mk3_fulldesc = Ez a ZPM MK3,Ez az eszköz igényli a SpaceBuild-et vagy az Environments addont.Ha nincs meg önnek,akkor a ZPM haszontalan önnek.
+stool_zpm_mk3_fulldesc = Ez a ZPM MK3. Ez az eszköz igényli a SpaceBuild-et vagy az Environments addont. Ezek hiányában a ZPM dekoráció.
 stool_zpm_mk3_capacity = Kapacitás:
